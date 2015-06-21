@@ -72,3 +72,17 @@
 #globalContainer {
     width: 970px;
 }
+.heading {
+  text-align:right;
+}
+
+.image-center {
+  margin-right: auto;
+  margin-left: auto;
+  display: block;
+
+}
+
+h3 {
+  text-align:center;
+}
