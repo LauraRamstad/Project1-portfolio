@@ -1,42 +1,53 @@
 body {
-  background-color:rgb(163,205,105);
+	background-color: rgb(163,205,105);
 }
-h1,h2,h3,h4 {
+
+h1,
+h2,
+h3,
+h4 {
     font-family: 'Poiret One', cursive;
-    font-weight:bold;
-    color:rgb(0,64,0);
+    font-weight: bold;
+    color: rgb(0,64,0);
 }
+
 h1 {
-  font-size: 4em;
+	font-size: 4em;
 }
-#featured-work {
+
+h3 {
+	margin-top: 10px;	
+}
+
+h4 {
+  font-size: 2em;
+}
+
+.logo {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.featured-work {
 	background-color: rgba(255, 162, 13, 0.5);
 }
-#project-list {
+
+.project-list {
 	background-color: rgba(250, 255, 250, 0.5);
 }
-h3 {
-	margin-top:10px;	
-}
-h4 {
-  font-size:2em;
-}
-#logo {
-	margin-top:10px;
-	margin-bottom:10px;
-}
+
 .main-image {
-	margin-top:25px;
-	margin-bottom:25px;
+	margin-top: 25px;
+	margin-bottom: 25px;
 }
 
 .project-images {
-	margin-top:10px;
+	margin-top: 10px;
 }
 
 @media screen and (max-width:767px) {
 	.project-images {
-		max-width:360px;
+		max-width: 360px;
 		margin-right: auto;
 		margin-left: auto;
 	}
@@ -44,26 +55,26 @@ h4 {
 
 @media screen and (max-width:634px) {
 	h1 {
-		font-size:3em;
+		font-size: 3em;
 	}
 	h4 {
-		font-size:1.5em;
+		font-size: 1.5em;
 	}
-	#logo {
-		width:100px;
+	.logo {
+		width: 100px;
 	}
 }
 @media screen and (max-width:432px) {
 	h1 {
-		font-size:2.5em;
+		font-size: 2.5em;
 	}
 	h4 {
-		font-size:1.25em;
+		font-size: 1.25em;
 	}
 }
 @media screen and (max-width:767px) {
-	#featured-work {
-		text-align:center;
+	.featured-work {
+		text-align: center;
 	}
 
 }
